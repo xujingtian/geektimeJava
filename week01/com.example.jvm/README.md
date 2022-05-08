@@ -187,3 +187,6 @@ public class HelloClassLoader extends ClassLoader {
 ```
 
 ![image-20220508105930784](D:\99.dean_pc\08.geektime\15.Java\03.code\week01\com.example.jvm\README.assets\image-20220508105930784.png)
+
+![](https://github.com/xujingtian/geektimeJava/blob/master/week01/com.example.jvm/README.assets/image-20220508105930784.png)
+
