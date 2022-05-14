@@ -80,7 +80,7 @@ java -XX:+UseConcMarkSweepGC -Xms128m -Xmx128m -Xlog:gc F:\Code\Java\JAVA-000\We
 java -XX:+UseG1GC -Xms128m -Xmx128m -Xlog:gc F:\Code\Java\JAVA-000\Week_01\example\src\com\company\GCLogAnalysis.java
 ```
 
-&ensp;&ensp;&ensp;&ensp;使用Python写脚本，每个运行十次，取平均值作为每次生成对象的数量，均衡时间分配等波动。测试的结果如下图表格所示：
+
 
 | GC/MEM             | 128M | 512M    | 1G      | 2G      | 4G      |
 | ------------------ | ---- | ------- | ------- | ------- | ------- |
