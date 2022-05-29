@@ -102,7 +102,7 @@ PS D:\99.dean_pc\08.geektime\15.Java\03.code\week04\demo> d:; cd 'd:\99.dean_pc\
 
 把多线程和并发相关知识梳理一遍，画一个脑图，截图上传到 GitHub 上。 可选工具:xmind，百度脑图，wps，MindManage，或其他。
 
-
+![concurrency](https://github.com/xujingtian/geektimeJava/blob/master/week04/README.assets/d17878708ccccc1761b28cb4aa4103cd.png)
 
 ![img](D:\99.dean_pc\08.geektime\15.Java\03.code\week04\README.assets\d17878708ccccc1761b28cb4aa4103cd.png)
 
