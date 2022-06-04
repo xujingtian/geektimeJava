@@ -12,16 +12,22 @@
 
 - xml配置：
 
+> ![xml](https://github.com/xujingtian/geektimeJava/blob/master/week05/README.assets/image-20220604161200770.png)
+>
 > ![image-20220604161200770](D:\99.dean_pc\08.geektime\15.Java\03.code\week05\README.assets\image-20220604161200770.png)
 
 - java代码：
 
+> ![javacode](https://github.com/xujingtian/geektimeJava/blob/master/week05/README.assets/image-20220604160549432.png)
+>
 > ![image-20220604160549432](D:\99.dean_pc\08.geektime\15.Java\03.code\week05\README.assets\image-20220604160549432.png)
 
 
 
 - 自动注解：
 
+> ![autowiring](https://github.com/xujingtian/geektimeJava/blob/master/week05/README.assets/image-20220604160214060.png)
+>
 > ![image-20220604160214060](D:\99.dean_pc\08.geektime\15.Java\03.code\week05\README.assets\image-20220604160214060.png)
 >
 > 
