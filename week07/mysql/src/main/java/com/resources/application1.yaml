@@ -1,0 +1,31 @@
+spring:
+  shardingsphere:
+    props:
+      sql-show: true
+    datasource:
+      names: master,slave
+      master:
+        driver-class-name: com.mysql.jdbc.Driver
+        jdbc-url: jdbc:mysql://localhost/master?useSSL=false&rewriteBatchedStatements=true
+        username: root
+        password: 123456
+        type: com.zaxxer.hikari.HikariDataSource
+      slave:
+        driver-class-name: com.mysql.jdbc.Driver
+        jdbc-url: jdbc:mysql://localhost/slave?useSSL=false&rewriteBatchedStatements=true
+        username: root
+        password: 123456
+        type: com.zaxxer.hikari.HikariDataSource
+    masterslave:
+      name: ms
+      master-data-source-name: master
+      slave-data-source-names: slave
+
+mybatis:
+  mapper-locations: classpath:mapper/CommonMapper/*.xml
+  typeAliasesPackage: org.split.entity
+  configuration:
+  log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+  level:
+    org.split.dao.CommonMapper: debug

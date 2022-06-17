@@ -1,0 +1,14 @@
+spring:
+  dynamic:
+    defaultdatasource: master
+    datasources:
+      master:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost/master?useSSL=false&rewriteBatchedStatements=true&serverTimezone=GMT
+        username: root
+        password: 123456
+      slave:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost/slave?useSSL=false&rewriteBatchedStatements=true&serverTimezone=GMT
+        username: root
+        password: 123456
