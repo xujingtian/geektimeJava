@@ -487,6 +487,7 @@ D:\redis\03.redis-windows-7.0.4.4-cluster\6379>redis-server.exe redis-windows-63
 
 ```
 ruby redis-trib.rb create --replicas 1 127.0.0.1:6379 127.0.0.1:6380 127.0.0.1:6381 127.0.0.1:7379 127.0.0.1:7380 127.0.0.1:7381
+#可能出现错误 [ERR] Sorry, can't connect to node 127.0.0.1:6379，是因为redis-trib.rb没指定密码，或者自己修改，可以传参
 ```
 
 ```shell
