@@ -11,11 +11,17 @@ path添加%ZOOKEEPER_HOME%\bin;
 
 ![image-20220729000438193](README.assets/image-20220729000438193.png)
 
+![](https://github.com/xujingtian/geektimeJava/blob/master/week13/README.assets/image-20220729000438193.png)
+
 4.打开cmd 进入kafka目录，执行以下命令启动kafka
 修改server.properties文件里的用#注解“log.dirs=/tmp/kafka-logs”
 .\bin\windows\kafka-server-start.bat .\config\server.properties
 
 ![image-20220729000519268](README.assets/image-20220729000519268.png)
+
+
+
+![](https://github.com/xujingtian/geektimeJava/blob/master/week13/README.assets/image-20220729000519268.png)
 
 5.打开新的cmd命令窗口，在kafka的bin\windows目录下创建topic执行
 
@@ -28,6 +34,8 @@ kafka-console-producer.bat --broker-list localhost:9092 --topic topic1
 在kafka的bin\windows目录下打开新的cmd，执行命令
 
 ![image-20220729000554454](README.assets/image-20220729000554454.png)
+
+![](https://github.com/xujingtian/geektimeJava/blob/master/week13/README.assets/image-20220729000554454.png)
 
 ## **6.（必做）**
 
